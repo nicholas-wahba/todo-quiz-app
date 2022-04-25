@@ -1,0 +1,39 @@
+{
+  "files": {
+    "app.js": "/todo-quiz-app/static/js/app.333560f6.chunk.js",
+    "app.js.map": "/todo-quiz-app/static/js/app.333560f6.chunk.js.map",
+    "runtime~app.js": "/todo-quiz-app/static/js/runtime~app.5413f6ce.js",
+    "runtime~app.js.map": "/todo-quiz-app/static/js/runtime~app.5413f6ce.js.map",
+    "static/js/2.5a54a8f4.chunk.js": "/todo-quiz-app/static/js/2.5a54a8f4.chunk.js",
+    "static/js/2.5a54a8f4.chunk.js.map": "/todo-quiz-app/static/js/2.5a54a8f4.chunk.js.map",
+    "fonts/AntDesign.ttf": "/todo-quiz-app/./fonts/AntDesign.ttf",
+    "fonts/Entypo.ttf": "/todo-quiz-app/./fonts/Entypo.ttf",
+    "fonts/Feather.ttf": "/todo-quiz-app/./fonts/Feather.ttf",
+    "fonts/FontAwesome.ttf": "/todo-quiz-app/./fonts/FontAwesome.ttf",
+    "fonts/FontAwesome5_Brands.ttf": "/todo-quiz-app/./fonts/FontAwesome5_Brands.ttf",
+    "fonts/FontAwesome5_Solid.ttf": "/todo-quiz-app/./fonts/FontAwesome5_Solid.ttf",
+    "fonts/Fontisto.ttf": "/todo-quiz-app/./fonts/Fontisto.ttf",
+    "fonts/Foundation.ttf": "/todo-quiz-app/./fonts/Foundation.ttf",
+    "fonts/Ionicons.ttf": "/todo-quiz-app/./fonts/Ionicons.ttf",
+    "fonts/MaterialCommunityIcons.ttf": "/todo-quiz-app/./fonts/MaterialCommunityIcons.ttf",
+    "fonts/MaterialIcons.ttf": "/todo-quiz-app/./fonts/MaterialIcons.ttf",
+    "fonts/SimpleLineIcons.ttf": "/todo-quiz-app/./fonts/SimpleLineIcons.ttf",
+    ".expo/README.md": "/todo-quiz-app/.expo/README.md",
+    "favicon-16.png": "/todo-quiz-app/favicon-16.png",
+    "favicon-32.png": "/todo-quiz-app/favicon-32.png",
+    "favicon.ico": "/todo-quiz-app/favicon.ico",
+    "index.html": "/todo-quiz-app/index.html",
+    "manifest.json": "/todo-quiz-app/manifest.json",
+    "serve.json": "/todo-quiz-app/serve.json",
+    "static/js/2.5a54a8f4.chunk.js.LICENSE.txt": "/todo-quiz-app/static/js/2.5a54a8f4.chunk.js.LICENSE.txt",
+    "static/media/bell.png": "/todo-quiz-app/static/media/bell.cf04af27.png",
+    "static/media/heart.png": "/todo-quiz-app/static/media/heart.23b5c2c0.png",
+    "static/media/rocket.png": "/todo-quiz-app/static/media/rocket.d2f3bf41.png",
+    "static/media/star.png": "/todo-quiz-app/static/media/star.69c71386.png"
+  },
+  "entrypoints": [
+    "static/js/runtime~app.5413f6ce.js",
+    "static/js/2.5a54a8f4.chunk.js",
+    "static/js/app.333560f6.chunk.js"
+  ]
+}
