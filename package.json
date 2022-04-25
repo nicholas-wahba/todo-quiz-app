@@ -21,7 +21,13 @@
     "react-native-elements": "^3.4.2",
     "react-native-safe-area-context": "3.3.2",
     "react-native-web": "0.17.1",
-    "which": "^2.0.2"
+    "regenerator-transform": "^0.15.0",
+    "regexpu-core": "^5.0.1",
+    "reselect": "^4.1.5",
+    "simple-swizzle": "^0.2.2",
+    "to-fast-properties": "^4.0.0",
+    "which": "^2.0.2",
+    "wrappy": "^1.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
