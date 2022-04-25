@@ -19,9 +19,41 @@ export default function App() {
     setTasks([...tasks, newTask])
     setInputText("")
   }, [inputText])
+  
+  let[inputQuestion, setInputQuestion] = useState("")
+  let[questions, setQuestions] = useState([
+    {description: "Question 1", key: "1", completed: true},
+    {description: "Question 2", key: "2", completed: false},
+    {description: "Question 3", key: "3", completed: false},
+  ])
+  let addQuestion = useCallback(() => {
+    let keys = tasks.map(question => parseInt(questions.key))
+    console.log(keys)
+    let maxKey = Math.max(...keys) + 1
+    let newQuestion = {description:inputQuestion, completed: false, key: maxKey.toString()}
+    console.log(newQuestion)
+    setInputQuestion([...questions, newQuestion])
+    setQuestions("")
+  }, [inputQuestion])
 return (
   <View style = {styles.container}>
   <View style = {styles.innerContainer}>
+  <Text style = {styles.title}>Question App</Text>
+  <Input value = {inputQuestion} onChangeText={setInputQuestion} style = {{height:30, paddingBottom: 10}}></Input>
+  <Button title= "Add Question" onPress={addQuestion}></Button>
+  <FlatList data={questions} keyExtractor = {(item) => item.key} renderItem={({item: question}) =>
+  <CheckBox onPress={() =>{
+    let curQuestion = questions.find(t => t.key == question.key)
+    curQuestion.completed = !curQuestion.completed
+    setQuestions([...questions])
+  }} title = {question.description} 
+  checked={question.completed}
+  textStyle={question.completed ? {
+    textDecorationLine: 'line-through', 
+    textDecorationStyle: 'solid'
+  }: undefined}
+  ></CheckBox>
+}/>
   <Text style = {styles.title}>TODO App</Text>
   <Input value = {inputText} onChangeText={setInputText} style = {{height:30, paddingBottom: 10}}></Input>
   <Button title= "Add" onPress={addTask}></Button>
@@ -54,6 +86,7 @@ const styles = StyleSheet.create({
   title:{
     fontSize: 25,
     alignSelf: "center",
+    padding: 15
   },
   innerContainer: {
     maxWidth: 300,
