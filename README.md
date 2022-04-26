@@ -6,7 +6,7 @@ This is the second portfolio assignment from Mobile App Development! Applying an
 
 I've chosen (Option 1.1) for this portfolio assignment!
 
-This work was done previous in Lab 7, in which I had to use React and React Native Elements to create a TO-DO List.
+This work was done previously in Lab 7, in which I had to use React and React Native Elements to create a TO-DO List.
 
 I have added a second Checkbox section moreso on the questions side. This can be used for quizzes, interviews, meetings, etc. 
 
