@@ -10,6 +10,6 @@ This work was done previous in Lab 7, in which I had to use React and React Nati
 
 I have added a second Checkbox section moreso on the questions side. This can be used for quizzes, interviews, meetings, etc. 
 
-Despite the fact that there are a majority of similarites regarding this and the TO-DO App, the more vital part of creating a second Checkbox is to understand the different arrays, arrow functions, and elements that have been implemented to make this work!
+Despite the fact that there are a majority of similarites regarding this and the TO-DO App, the most vital part of creating a second Checkbox is to understand the different arrays, arrow functions, and elements that have been implemented to make this work!
 
 The work to create these different features are in the App.js file.
