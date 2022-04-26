@@ -1,3 +1,9 @@
+//For Portfolio 2, I've decided to go for Option 1.1
+//The goal of this option was to create additional or redesign current components
+//For this particular lab, I've decided to add another "Question Quiz" to add to the TODO app done in Lab 7
+//In which the primary goal of the "Question Checkbox" is moreso if to add questions 
+//(it could about any subject or used in different ways) and then crossed off once a question is answered. 
+
 import { StatusBar } from 'expo-status-bar';
 import { useCallback, useState } from 'react';
 import { FlatList, StyleSheet, Text, View} from 'react-native';
@@ -27,13 +33,13 @@ export default function App() {
     {description: "Question 3", key: "3", completed: false},
   ])
   let addQuestion = useCallback(() => {
-    let keys = tasks.map(question => parseInt(questions.key))
+    let keys = questions.map(question => parseInt(question.key))
     console.log(keys)
     let maxKey = Math.max(...keys) + 1
     let newQuestion = {description:inputQuestion, completed: false, key: maxKey.toString()}
     console.log(newQuestion)
-    setInputQuestion([...questions, newQuestion])
-    setQuestions("")
+    setQuestions([...questions, newQuestion])
+    setInputQuestion("")
   }, [inputQuestion])
 return (
   <View style = {styles.container}>
